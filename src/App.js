@@ -3,6 +3,7 @@ import {Provider}from 'react-redux'
 import Counter from './components/Counter';
 import './App.css';
 import Todos from './components/Todos';
+import Countries from './components/Countries';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
       <Counter/>
       <Todos/>
+      <Countries />
       </div>
     </Provider>
     
